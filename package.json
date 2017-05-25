@@ -1,0 +1,23 @@
+{
+  "name": "ofi-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markrogers9109/ofi-frontend.git"
+  },
+  "author": "Mark Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markrogers9109/ofi-frontend/issues"
+  },
+  "homepage": "https://github.com/markrogers9109/ofi-frontend#readme",
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}

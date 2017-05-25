@@ -1,0 +1,54 @@
+
+@import "color-scheme";
+@import "fonts";
+
+* {
+    transition: 0.3s;
+}
+
+*:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+html, body {
+    font-family: $primary-font, sans-serif;
+}
+
+.ofi-flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ofi-flex_apart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ofi-pill_teal {
+    display: block;
+    background-color: $teal;
+    padding: 12.5px 40px;
+    border-color: transparent;
+    border-radius: 40px;
+    color: white;
+}
+
+.text-darkblue {
+    color: $darkblue;
+}
+
+.text-lightgray {
+    color: $lightgray;
+    font-weight: 300;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-thin {
+    font-weight: 200;
+}

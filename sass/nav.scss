@@ -1,0 +1,42 @@
+
+
+.ofi-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    .ofi-nav_container {
+        .navbar-nav.ofi-flex_center {
+            float: right;
+            .ofi-nav_pill {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 6px 12px;
+                border: 2px #E3E8F0 solid;
+                border-radius: 20px;
+            }
+        }
+        .navbar-brand.ofi-mobile_logo {
+            display: none;
+        }
+        .ofi-nav_items {
+            float: left;
+            .ofi-flex_apart {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                ul {
+                    li {
+                        a {
+                            color: #777777;
+                            font-weight: 300;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

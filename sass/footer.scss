@@ -1,0 +1,66 @@
+
+@import "color-scheme";
+@import "fonts";
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: $darkerblue;
+    .ofi-footer_container {
+        max-width: 1075px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding: 20px 0;
+        .ofi-footer_col {
+            max-width: 275px;
+            h4 {
+                font-size: 14px;
+            }
+            p.text-white {
+                opacity: 0.5;
+            }
+            .ifo-tweet {
+                display: flex;
+                .fa-twitter {
+                    padding: 5px 10px 0 0;
+                }
+            }
+            .ifo-email {
+                .ifo-input {
+                    span {
+                        position: absolute;
+                        bottom: 12px;
+                        padding: 0 10px;
+                        z-index: 2;
+                    }
+                    input {
+                        height: 43px;
+                        width: 100%;
+                        opacity: 0.15;
+                        border-radius: 4px;
+                        z-index: 1;
+                    }
+                    input:focus {
+                        opacity: 1;
+                        z-index: 3;
+                    }
+                }
+            }
+        }
+    }
+    .ofi-footer_menu {
+        hr {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .navbar-nav {
+            max-width: 1050px;
+            display: block;
+            margin-left: auto;
+            float: none;
+        }
+    }
+}
