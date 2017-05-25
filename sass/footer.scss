@@ -23,14 +23,14 @@ footer {
             p.text-white {
                 opacity: 0.5;
             }
-            .ifo-tweet {
+            .ofi-tweet {
                 display: flex;
                 .fa-twitter {
                     padding: 5px 10px 0 0;
                 }
             }
-            .ifo-email {
-                .ifo-input {
+            .ofi-email {
+                .ofi-input {
                     span {
                         position: absolute;
                         bottom: 12px;
@@ -48,6 +48,33 @@ footer {
                         opacity: 1;
                         z-index: 3;
                     }
+                }
+            }
+            .ofi-insta_photos {
+                display: flex;
+                flex-wrap: wrap;
+                h4 {
+                    margin-bottom: 5px
+                }
+                .insta-style {
+                    background-position: center -10px;
+                    background-repeat: no-repeat;
+                    height: 70px;
+                    width: 70px;
+                    margin: 10px 10px 10px 0;
+                    border-radius: 6px;
+                }
+                .ofi-insta_one {
+                    background-image: url('../assets/images/footer/insta-one.png');
+                }
+                .ofi-insta_two {
+                    background-image: url('../assets/images/footer/insta-two.png');
+                }
+                .ofi-insta_three {
+                    background-image: url('../assets/images/footer/insta-three.png');
+                }
+                .ofi-insta_four {
+                    background-image: url('../assets/images/footer/insta-four.png');
                 }
             }
         }

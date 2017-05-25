@@ -14,6 +14,10 @@ html, body {
     font-family: $primary-font, sans-serif;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .ofi-flex_center {
     display: flex;
     justify-content: center;

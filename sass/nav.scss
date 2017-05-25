@@ -35,7 +35,15 @@
                             line-height: 20px;
                         }
                     }
+                    .ofi-mobile_login {
+                        display: none;
+                    }
                 }
+            }
+        }
+        .collapsed.ofi-nav_items {
+            .ofi-mobile_login {
+                display: block;
             }
         }
     }
