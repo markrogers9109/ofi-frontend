@@ -1,0 +1,40 @@
+.ofi-project_hero {
+    padding: 200px 0 100px;
+    .ofi-project_herocontainer {
+        .ofi-project_heroflex {
+            display: flex;
+            justify-content: space-between;
+            .ofi-project {
+                padding: 0 15px 15px 15px;
+                max-width: 575px;
+                .ofi-project_user {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .ofi-project_userimg {
+                        background-image: url('../assets/images/project-hero/user-pic.png');
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        height: 90px;
+                        width: 90px;
+                        border-radius: 45px;
+                        margin: 0 15px 15px 15px;
+                    }
+                    .ofi-project_userinfo {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        height: 90px;
+                        h1 {
+                            margin: 0;
+                        }
+                    }
+                }
+                .ofi-project_desc {
+                    padding: 0 15px 15px 15px;
+                }
+            }
+        }
+    }
+}
