@@ -1,3 +1,7 @@
+
+@import "color-scheme";
+@import "fonts";
+
 .ofi-project_hero {
     padding: 200px 0 100px;
     .ofi-project_herocontainer {
@@ -33,6 +37,22 @@
                 }
                 .ofi-project_desc {
                     padding: 0 15px 15px 15px;
+                }
+                .ofi-project_button {
+                    padding-left: 15px;
+                    .ofi-contribute_btn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 52px;
+                        width: 203px;
+                        background-color: $darkerblue;
+                        border-radius: 26px;
+                        box-shadow: 0 20px 40px 0 rgba(184,191,211,0.60);
+                    }
+                    .ofi-contribute_btn:hover {
+                        color: #FFFFFF;
+                    }
                 }
             }
         }

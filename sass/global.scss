@@ -18,6 +18,17 @@ a:hover {
     text-decoration: none;
 }
 
+.ofi-footer_menu {
+    .navbar-nav {
+        li {
+            a:hover {
+                background-color: transparent;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
 .ofi-flex_center {
     display: flex;
     justify-content: center;
