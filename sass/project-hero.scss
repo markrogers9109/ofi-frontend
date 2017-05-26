@@ -8,8 +8,11 @@
         .ofi-project_heroflex {
             display: flex;
             justify-content: space-between;
+            .ofi-video_gradient {
+                margin-right: auto;
+            }
             .ofi-project {
-                padding: 0 15px 15px 15px;
+                padding: 0 0px 15px 15px;
                 max-width: 575px;
                 .ofi-project_user {
                     display: flex;
@@ -36,7 +39,7 @@
                     }
                 }
                 .ofi-project_desc {
-                    padding: 0 15px 15px 15px;
+                    padding: 0 0px 15px 15px;
                 }
                 .ofi-project_button {
                     padding-left: 15px;
