@@ -30,9 +30,11 @@
     .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-video_gradient {
         margin-right: 0;
     }
-    .ofi-project {
+    .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-project {
         padding: 0 15px 15px 15px;
-    }.ofi-project_desc {
+        max-width: 100%;
+    }
+    .ofi-project_desc {
         padding: 0 0px 15px 0px;
     }
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message {
@@ -70,16 +72,19 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+    .ofi-project_hero {
+        padding: 175px 0 100px;
+    }
+    .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-project {
+        padding: 0 15px 15px 15px;
+        max-width: 100%;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     .navbar-nav.ofi-flex_center {
         display: flex;
-    }
-    .ofi-hero .ofi-hero_container .ofi-hero_header {
-        display: block;
     }
     .ofi-hero .ofi-hero_container .ofi-hero_header h1 {
         font-family: Montserrat;
@@ -99,8 +104,17 @@
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content {
         display: flex;
     }
+    .ofi-project_hero {
+        padding: 200px 0 100px;
+    }
+    .ofi-project {
+        padding: 0 15px 15px 15px;
+    }
+    .ofi-project_desc {
+        padding: 0 0px 15px 15px;
+    }
     .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex {
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message {
         display: flex;
@@ -137,16 +151,18 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    .ofi-project_hero {
-        padding: 200px 0 100px;
+    .ofi-hero .ofi-hero_container .ofi-hero_header {
+        display: block;
+    }
+    .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-project {
+        padding: 0 0px 15px 15px;
+        max-width: 575px;
+    }
+    .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex {
+        flex-direction: row;
     }
     .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-video_gradient  {
         margin-right: auto;
-    }
-    .ofi-project {
-        padding: 0 0px 15px 15px;
-    }.ofi-project_desc {
-        padding: 0 0px 15px 15px;
     }
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main .ofi-post_footer {
         display: flex;
