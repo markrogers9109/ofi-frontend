@@ -1,0 +1,28 @@
+
+@import "color-scheme";
+@import "fonts";
+
+.ofi-project_kickoff {
+    background-color: #FFFFFF;
+    .ofi-kickoff_list {
+        padding: 30px 0;
+        .ofi-kickoff_listitem {
+            display: flex;
+            align-items: center;
+            padding-bottom: 50px;
+            .ofi-kickoff_checkcircle {
+                padding: 0 15px;
+            }
+            .ofi-kickoff_qa {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                min-height: 60px;
+                padding: 0 15px;
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

@@ -51,6 +51,10 @@ a:hover {
     color: white;
 }
 
+.text-darkerblue {
+    color: $darkerblue;
+}
+
 .text-darkblue {
     color: $darkblue;
 }
@@ -66,4 +70,8 @@ a:hover {
 
 .text-thin {
     font-weight: 200;
+}
+
+.small-font {
+    font-size: 12px;
 }
