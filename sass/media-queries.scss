@@ -34,12 +34,16 @@
         padding: 0 15px 15px 15px;
         max-width: 100%;
     }
+    .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main p {
+        margin-bottom: 10px;
+    }
     .ofi-project_desc {
         padding: 0 0px 15px 0px;
     }
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message {
         display: flex;
         flex-direction: column-reverse;
+        padding: 0px 0px 70px;
     }
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-contribution_ref {
         min-height: 100%;
@@ -78,6 +82,13 @@
     .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-project {
         padding: 0 15px 15px 15px;
         max-width: 100%;
+    }
+    .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main .ofi-post_footer {
+        display: flex;
+        flex-direction: row;
+    }
+    .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main .ofi-post_footer .ofi-add_contributors .ofi-contributor_imgs {
+        display: none;
     }
 }
 
@@ -120,6 +131,10 @@
         display: flex;
         flex-direction: row;
         min-height: 270px;
+        padding: 25px 0 45px;
+    }
+    .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main p {
+        margin-bottom: 0px;
     }
     .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-contribution_ref {
         display: flex;
@@ -164,9 +179,8 @@
     .ofi-project_hero .ofi-project_herocontainer .ofi-project_heroflex .ofi-video_gradient  {
         margin-right: auto;
     }
-    .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main .ofi-post_footer {
-        display: flex;
-        flex-direction: row;
+    .ofi-project_feed .ofi-feed_container .ofi-feed_posts .ofi-post_content .ofi-message .ofi-post_main .ofi-post_footer .ofi-add_contributors .ofi-contributor_imgs {
+        display: block;
     }
 }
 
